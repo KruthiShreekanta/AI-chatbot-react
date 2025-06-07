@@ -1,12 +1,20 @@
-# React + Vite
+# Gemini Chatbot React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, smart, and responsive chatbot built using **React** and powered by **Google's Gemini 1.5 Flash** – the ultra-efficient version of Gemini AI for real-time conversation and quick response generation.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ Powered by **Gemini 1.5 Flash** for ultra-fast responses
+- 💬 Real-time conversation with memory (optional)
+- 📱 Responsive and clean chat UI
+- 🔐 Secure API key usage via `.env`
+- 📦 Modular and reusable React components
+- 🛠️ Easy customization for different AI personalities
 
-## Expanding the ESLint configuration
+1. Install Dependencies=> npm install
+2. Add Your Gemini API Key=>
+   Create a .env file in the project root:VITE_GEMINI_API_KEY=your_gemini_api_key_here
+    You can get your Gemini API key from Google AI Studio
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Run the Development Server => npm run dev
+   Visit: http://localhost:5173

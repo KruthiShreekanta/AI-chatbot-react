@@ -18,3 +18,8 @@ A fast, smart, and responsive chatbot built using **React** and powered by **Goo
 
 4. Run the Development Server => npm run dev
    Visit: http://localhost:5173
+
+## Snapshots
+![alt text](image.png)
+
+![alt text](image-1.png)
